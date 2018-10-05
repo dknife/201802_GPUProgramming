@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Lab2_Lighting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab3_shaderClass" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lab4_ABetterShader" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lab06_images" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
