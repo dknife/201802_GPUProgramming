@@ -11,19 +11,7 @@ import math
 import Light
 import Shader
 import Texture
-
-def drawQuad() :
-    glBegin(GL_QUADS)
-    glNormal3f(0,1,0)
-    glTexCoord2f(0, 0)
-    glVertex3f(-1, 0, -1)
-    glTexCoord2f(0, 1)
-    glVertex3f(-1, 0,  1)
-    glTexCoord2f(1, 1)
-    glVertex3f( 1, 0,  1)
-    glTexCoord2f(1, 0)
-    glVertex3f( 1, 0, -1)
-    glEnd()
+import Surface
 
 class MyFrame(wx.Frame) :
     def __init__(self):
@@ -102,9 +90,13 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         gluPerspective(60, self.aspect_ratio, 0.1, 100.0)
         glViewport(0,0,self.size[0], self.size[1])
         glEnable(GL_DEPTH_TEST)
-        self.texture = Texture.Texture("normal.jpg")
+        self.texture = Texture.Texture("normal.png")
         self.texture.startTexture()
-        self.shader = Shader.Shader("textureMapping.vs", "textureMapping.fs")
+        self.shader = Shader.Shader("tangent.vs", "tangent.fs")
+        self.surface = Surface.Surface(30,30)
+        self.surface.resetVerts()
+        #self.surface.computeNormals()
+        self.surface.computeTangentSpace()
 
 
     def OnDraw(self, event):
@@ -125,9 +117,10 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         if self.bDrawWithShader :
             self.shader.begin()
             loc = glGetUniformLocation(self.shader.program, "myTexture")
-            glUniform1i(loc, 0);
+            glUniform1i(loc, 0)
+        else : self.surface.drawTangentSpace()
 
-        drawQuad()
+        self.surface.drawSurface()
 
         self.shader.end()
 
