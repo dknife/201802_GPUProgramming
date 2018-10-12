@@ -1,5 +1,9 @@
 uniform sampler2D myTexture;
+
+varying in vec3 T;
+varying in vec3 B;
 varying in vec3 N;
+
 varying in vec3 V;
 
 void main (void)

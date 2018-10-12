@@ -118,6 +118,19 @@ class OpenGLCanvas(glcanvas.GLCanvas):
             self.shader.begin()
             loc = glGetUniformLocation(self.shader.program, "myTexture")
             glUniform1i(loc, 0)
+
+            vab = glGenBuffers(1)
+            glBindBuffer(GL_ARRAY_BUFFER, vab)
+            glBufferData(GL_ARRAY_BUFFER, 4*self.surface.nParticles, self.surface.tangent, GL_STATIC_DRAW)
+            loc = glGetAttribLocation(self.shader.program, "Tangent")
+            glEnableVertexAttribArray(loc)
+            glVertexAttribPointer(loc, 3, GL_FLOAT, GL_FALSE, 0, ctypes.c_void_p(0))
+
+
+            #loc = glGetAttribLocation(self.shader.program, "Binormal")
+            #glEnableVertexAttribArray(self.surface.binor)
+            #glVertexAttribPointer(loc, 3, GL_FLOAT, GL_FALSE, 0, ctypes.c_void_p(0))
+
         else : self.surface.drawTangentSpace()
 
         self.surface.drawSurface()

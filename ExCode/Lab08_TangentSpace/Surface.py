@@ -106,8 +106,7 @@ class Surface :
         #glBindVertexArray(vaoHandle)
         #glEnableVertexAttribArray(0)
         #glEnableVertexAttribArray[1]
-        glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 0, self.tangent)
-        glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 0, self.binorm)
+
 
 
 
