@@ -1,4 +1,4 @@
-attribute vec3 Tangent
+//attribute vec3 Tangent
 //attribute vec3 Binormal
 
 varying out vec3 T;

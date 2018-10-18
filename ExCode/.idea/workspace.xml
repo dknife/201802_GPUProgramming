@@ -3,32 +3,58 @@
   <component name="ChangeListManager">
     <list default="true" id="f8776fb1-3ed3-4f2e-81d6-7808cfb289e0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2147080790">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cps" value="108" />
+          <entry key="fs" value="119" />
+          <entry key="py" value="1952" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="227" />
+          <entry key="Python" value="1952" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cps" value="1" />
+          <entry key="fs" value="2" />
+          <entry key="py" value="6" />
+          <entry key="vs" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Surface.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Surface.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10_Particles/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2346">
-              <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="123" column="44" lean-forward="false" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+            <state relative-caret-position="346">
+              <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -36,41 +62,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textureMapping.fs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10_Particles/textureMapping.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="126">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tangent.vs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.vs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10_Particles/Shader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="548">
+              <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+                <marker date="1539767869408" expanded="true" signature="2669:2867" ph="..." />
+                <marker date="1539767869408" expanded="true" signature="2883:2892" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tangent.fs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/OpenGL/raw/GL/_types.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="133">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Light.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Light.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lab10_Particles/compute.cps">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab10_Particles/Surface.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -78,44 +115,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textureMapping.vs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.vs">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="209">
+              <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Texture.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Texture.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/Shader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="700">
+              <caret line="52" column="26" selection-end-line="66" selection-end-column="23" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textureMapping.fs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textureMapping.vs" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.vs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="133">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -142,6 +167,9 @@
       <find>glBindBuffer</find>
       <find>sizeof</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -179,143 +207,74 @@
         <option value="$PROJECT_DIR$/Lab07_NormalMap/textureMapping.fs" />
         <option value="$PROJECT_DIR$/Lab07_NormalMap/main.py" />
         <option value="$PROJECT_DIR$/Lab5_parameters/main.py" />
-        <option value="$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs" />
         <option value="$PROJECT_DIR$/Lab08_TangentSpace/Surface.py" />
+        <option value="$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs" />
+        <option value="$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs" />
         <option value="$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.vs" />
         <option value="$PROJECT_DIR$/Lab08_TangentSpace/main.py" />
-        <option value="$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs" />
         <option value="$PROJECT_DIR$/Lab08_TangentSpace/tangent.vs" />
+        <option value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/Shader.py" />
+        <option value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.vs" />
+        <option value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/main.py" />
+        <option value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/Surface.py" />
+        <option value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.fs" />
+        <option value="$PROJECT_DIR$/LabB01_CudaStart/helloCuda.py" />
+        <option value="$PROJECT_DIR$/Lab10_Particles/Surface.py" />
+        <option value="$PROJECT_DIR$/Lab10_Particles/textureMapping.fs" />
+        <option value="$PROJECT_DIR$/Lab10_Particles/Shader.py" />
+        <option value="$PROJECT_DIR$/Lab10_Particles/main.py" />
+        <option value="$PROJECT_DIR$/Lab10_Particles/compute.cps" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1922" />
-    <option name="width" value="1922" />
-    <option name="height" value="1091" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="4" />
+    <option name="width" value="1918" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ShaderLab1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab08_TangentSpace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab07_NormalMap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab06_images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab5_parameters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lab4_ABetterShader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExCode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab10_Particles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LabB01_CudaStart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="ShaderLab1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab10_Particles" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab08_TangentSpace" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab07_NormalMap" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab5_parameters" />
@@ -333,62 +292,30 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (2)">
-    <configuration default="false" name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (4)">
+    <configuration name="helloCuda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5_parameters" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB01_CudaStart" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5_parameters/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB01_CudaStart/helloCuda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="glutDemo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab5_parameters" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab5_parameters/glutDemo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab06_images" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab06_images/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -399,14 +326,17 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab07_NormalMap/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="false" name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -417,112 +347,105 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab08_TangentSpace/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
-      <option name="SCRIPT_NAME" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
-      <method />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab10_Particles" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab10_Particles/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
+      <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
+      <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="ExCode" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;.&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
+      <method v="2" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main (4)" />
-      <item index="1" class="java.lang.String" itemvalue="Python.glutDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.main" />
-      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main (2)" />
+    <list>
+      <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.helloCuda" />
+      <item itemvalue="Python.main (4)" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
-        <item index="3" class="java.lang.String" itemvalue="Python.main (4)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.glutDemo" />
+      <list>
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.helloCuda" />
+        <item itemvalue="Python.main (3)" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main (2)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -535,155 +458,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1922" y="0" width="1922" height="1091" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973767" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3156823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17324094" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4989154" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/fragmentSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/myBRDF.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1_ShaderWithGUI/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="27" column="40" lean-forward="false" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3_shaderClass/Shader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="30" column="35" lean-forward="false" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3_shaderClass/vertexSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3_shaderClass/fragmentSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3_shaderClass/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="80" column="47" lean-forward="false" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/Shader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/vertexSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab3_shaderClass/Light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/Light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="11" column="32" lean-forward="false" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/fragmentSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2530">
-          <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab2_Lighting/Light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab1_ShaderWithGUI/step2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2323">
-          <caret line="109" column="36" lean-forward="false" selection-start-line="109" selection-start-column="36" selection-end-line="109" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/myBRDF.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/myBRDF.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/fragmentSimple">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -700,260 +503,337 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/myBRDF.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/glutDemo.py" />
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/Light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/vertexSimple">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="1" />
+        <state>
+          <caret selection-end-line="5" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/Toon.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/Shader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <caret line="12" selection-end-line="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab2_Lighting/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2415">
-          <caret line="115" column="38" lean-forward="false" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
+          <caret line="115" column="38" selection-start-line="115" selection-start-column="38" selection-end-line="115" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/Shader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/brightness.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/smooth.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-          <folding />
+        <state>
+          <caret selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/vertex.vs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="39" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="2" selection-end-column="39" />
-          <folding />
+          <caret line="2" column="39" selection-start-line="1" selection-start-column="59" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/fragment.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
-          <caret line="2" column="59" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="59" />
-          <folding />
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/perPixel.vs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="44" />
-          <folding />
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/perPixel.fs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
-          <caret line="23" column="39" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="39" />
-          <folding />
+          <caret line="23" column="39" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/vertexSimple">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="29" lean-forward="false" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding />
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/fragmentSimple">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="57" lean-forward="false" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding />
+          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Texture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="false" />
-          </folding>
+          <caret line="10" column="33" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Light.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
-          <caret line="21" column="43" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
+          <caret line="21" column="43" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Shader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab06_images/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1978">
-          <caret line="93" column="32" lean-forward="false" selection-start-line="92" selection-start-column="12" selection-end-line="93" selection-end-column="32" />
-          <folding />
+          <caret line="93" column="32" selection-start-line="92" selection-start-column="12" selection-end-line="93" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab5_parameters/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="117" column="8" lean-forward="false" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1022">
-          <caret line="116" column="13" lean-forward="false" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding />
+          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Light.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Surface.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="2392">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Texture.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../pyCudaDownload/pycuda-2018.1.1/README_SETUP.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="1" lean-forward="true" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3289">
+          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB01_CudaStart/helloCuda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/Light.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/particles.vs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/particles.fs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/Surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="61" lean-forward="false" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
-          <folding />
+        <state relative-caret-position="209">
+          <caret line="11" column="61" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="61" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs">
+    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.vs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="133">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.vs">
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/textureMapping.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="126">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Surface.py">
+    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/Shader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2346">
-          <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="700">
+          <caret line="52" column="26" selection-end-line="66" selection-end-column="23" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/main.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/OpenGL/raw/GL/_types.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="123" column="44" lean-forward="false" selection-start-line="123" selection-start-column="44" selection-end-line="123" selection-end-column="44" />
+        <state relative-caret-position="133">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/Surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/Shader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1539767869408" expanded="true" signature="2669:2867" ph="..." />
+            <marker date="1539767869408" expanded="true" signature="2883:2892" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="433" column="34" lean-forward="true" selection-start-line="433" selection-start-column="34" selection-end-line="433" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs">
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/compute.cps">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Texture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
