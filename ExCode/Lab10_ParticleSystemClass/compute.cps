@@ -1,6 +1,6 @@
 #version 320 es
 
-layout(local_size_x = 100) in;
+layout(local_size_x = 10) in;
 
 layout(binding = 0) readonly buffer Input0 {
     float data[];

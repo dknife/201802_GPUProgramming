@@ -14,6 +14,7 @@ import Shader
 import Texture
 import Surface
 
+import ParticleSystem
 
 class MyFrame(wx.Frame) :
     def __init__(self):
@@ -101,21 +102,13 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.texture = Texture.Texture("normal.png")
         attrib_list = ["Tangent", "Binormal"]
         self.shader = Shader.Shader("textureMapping.vs", "textureMapping.fs", attrib_list)
+
+
         self.surface = Surface.Surface(150,150)
         self.surface.resetVerts()
         self.surface.computeTangentSpace()
 
-        self.cpsShader = Shader.ComputeShader("compute.cps")
-        self.f0 = np.random.rand(10000, ).astype('f')
-        self.f1 = -self.f0;
-        self.out = np.zeros(shape=(10000,), dtype='f')
-        self.input0ssbo = glGenBuffers(1)
-        self.input1ssbo = glGenBuffers(1)
-        self.outputssbo = glGenBuffers(1)
-
-        self.cpsShader.setupShaderStorageBufferObject(self.input0ssbo, 0, self.f0)
-        self.cpsShader.setupShaderStorageBufferObject(self.input1ssbo, 1, self.f1)
-        self.cpsShader.setupShaderStorageBufferObject(self.outputssbo, 2, self.out)
+        self.particles = ParticleSystem.ParticleSystem(10000, "compute.cps")
 
         self.InitGL()
 
@@ -167,29 +160,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
 
         self.shader.end()
 
-
-
-        self.cpsShader.begin()
-        glDispatchCompute(100, 1, 1) # arraySize / local_size_x
-        glMemoryBarrier(GL_SHADER_STORAGE_BARRIER_BIT)
-
-        glBindBuffer(GL_SHADER_STORAGE_BUFFER, self.outputssbo)
-
-        p = glMapBuffer(GL_SHADER_STORAGE_BUFFER, GL_READ_WRITE)
-        ptr = ctypes.cast(p, ctypes.POINTER(ctypes.c_float * len(self.out)))
-        array = np.frombuffer(ptr.contents, 'f')
-
-        print(self.f0)
-        print(self.f1)
-        print(self.out)
-        print(array)
-        print(len(array))
-
-        glUnmapBuffer(GL_SHADER_STORAGE_BUFFER)
-
-
-
-        self.cpsShader.end()
+        self.particles.show()
 
         self.SwapBuffers()
 
