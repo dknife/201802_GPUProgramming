@@ -29,10 +29,15 @@ class MyPanel(wx.Panel) :
         self.canvas = OpenGLCanvas(self)
 
         self.shaderButton = wx.Button(self, wx.ID_ANY, "Shader On/Off",
-                                      pos=(1030, 20), size=(200,40), style = 0)
+                                      pos=(1030, 20), size=(100,40), style = 0)
         self.shaderLabel = wx.StaticText(self, -1, pos=(1030, 60), style=wx.ALIGN_CENTER)
         self.shaderLabel.SetLabel("currently the shader is off")
         self.Bind(wx.EVT_BUTTON, self.OnShaderButton, self.shaderButton)
+
+        self.resetButton = wx.Button(self, wx.ID_ANY, "Reset",
+                                      pos=(1130, 20), size=(100, 40), style=0)
+        self.Bind(wx.EVT_BUTTON, self.OnResetButton, self.resetButton)
+
 
         self.lightLabel = wx.StaticText(self, -1, pos=(1030,150), style=wx.ALIGN_CENTER)
         self.lightLabel.SetLabel("Light")
@@ -75,6 +80,9 @@ class MyPanel(wx.Panel) :
             self.canvas.bDrawWithShader = True
             self.shaderLabel.SetLabel("currently the shader is on")
 
+    def OnResetButton(self, event):
+        self.canvas.particles.initParticles()
+
 class OpenGLCanvas(glcanvas.GLCanvas):
     def __init__(self, parent) :
         self.initialized = False
@@ -104,11 +112,11 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.shader = Shader.Shader("textureMapping.vs", "textureMapping.fs", attrib_list)
 
 
-        self.surface = Surface.Surface(150,150)
+        self.surface = Surface.Surface(50,50)
         self.surface.resetVerts()
         self.surface.computeTangentSpace()
 
-        self.particles = ParticleSystem.ParticleSystem(10000, "compute.cps")
+        self.particles = ParticleSystem.ParticleSystem(80000, "simulate.cps")
 
         self.InitGL()
 
@@ -133,7 +141,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         # position viewers
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
-        gluLookAt(0,self.zoom,self.zoom, 0, 0, 0, 0,1,0)
+        gluLookAt(0,self.zoom*0.3,self.zoom, 0, 0, 0, 0,1,0)
         self.light.setLightPoisition(self.lightX, 0.5, 0)
         glDisable(GL_LIGHTING)
         glPointSize(10)

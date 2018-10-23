@@ -24,7 +24,7 @@ class Surface :
                 x = self.verts[j * self.nW + i, 0] = float(i) / (self.nW-1) - 0.5
                 z = self.verts[j * self.nW + i, 2] = float(j) / (self.nH - 1) - 0.5
                 xz = x**2.0+z**2.0
-                if xz < 0.25 : y = 0.25 - x**2.0 - z**2.0
+                if xz < 0.25*0.25 : y = math.sqrt(0.25*0.25 - xz)
                 else : y = 0.0
                 self.verts[j * self.nW + i, 1] = y
                 self.tex[j * self.nW + i, 0] = 3.0*float(i) / (self.nW - 1)
