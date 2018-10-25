@@ -12,41 +12,54 @@
     <session id="-2147080790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.31" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cps" value="319" />
-          <entry key="fs" value="119" />
-          <entry key="py" value="3646" />
+          <entry key="cps" value="472" />
+          <entry key="fs" value="158" />
+          <entry key="fs2" value="181" />
+          <entry key="gs" value="164" />
+          <entry key="gs2" value="213" />
+          <entry key="gs3" value="90" />
+          <entry key="py" value="5332" />
+          <entry key="vs" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="438" />
-          <entry key="Python" value="3646" />
+          <entry key="PLAIN_TEXT" value="1280" />
+          <entry key="Python" value="5332" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cp" value="1" />
-          <entry key="cps" value="3" />
-          <entry key="fs" value="3" />
-          <entry key="py" value="16" />
-          <entry key="vs" value="3" />
+          <entry key="cp" value="2" />
+          <entry key="cps" value="4" />
+          <entry key="fs" value="7" />
+          <entry key="fs2" value="1" />
+          <entry key="gs" value="3" />
+          <entry key="gs2" value="2" />
+          <entry key="gs3" value="1" />
+          <entry key="jpg" value="1" />
+          <entry key="png" value="1" />
+          <entry key="py" value="27" />
+          <entry key="vs" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="16" />
+          <entry key="Image" value="2" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
     </session>
@@ -54,10 +67,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_Particles/main.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+            <state relative-caret-position="-261">
+              <caret line="144" column="24" lean-forward="true" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -66,44 +79,59 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_Particles/Surface.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="549">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state relative-caret-position="285">
+              <caret line="15" column="33" selection-end-line="46" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/ParticleSystem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/smoke.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/sprite.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-                <marker date="1540283325314" expanded="true" signature="888:1292" ph="..." />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ctypes/__init__.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/simulate.cps">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
+            <state relative-caret-position="157">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/Shader.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/Shader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="94" column="57" selection-start-line="94" selection-start-column="57" selection-end-line="94" selection-end-column="57" />
+            <state relative-caret-position="361">
+              <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -112,41 +140,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/textureMapping.vs">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/simulate2.cp">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/textureMapping.fs">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.fs2">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate2.cp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="53" column="55" lean-forward="true" selection-end-line="66" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="77" column="68" lean-forward="true" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
-              <folding>
-                <element signature="e#0#37#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -174,6 +176,9 @@
       <find>sizeof</find>
       <find>cps</find>
       <find>out</find>
+      <find>myShader</find>
+      <find>texture</find>
+      <find>self.texture</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,22 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/perPixel.vs" />
-        <option value="$PROJECT_DIR$/Lab3_shaderClass/Light.py" />
-        <option value="$PROJECT_DIR$/Lab2_Lighting/Light.py" />
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/Light.py" />
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/perPixel.fs" />
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/myBRDF.vs" />
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/main.py" />
-        <option value="$PROJECT_DIR$/Lab4_ABetterShader/myBRDF.fs" />
-        <option value="$PROJECT_DIR$/Lab5_parameters/Toon.fs" />
-        <option value="$PROJECT_DIR$/Lab5_parameters/glutDemo.py" />
-        <option value="$PROJECT_DIR$/Lab06_images/Shader.py" />
-        <option value="$PROJECT_DIR$/Lab06_images/fragment.fs" />
-        <option value="$PROJECT_DIR$/Lab06_images/brightness.fs" />
-        <option value="$PROJECT_DIR$/Lab06_images/main.py" />
-        <option value="$PROJECT_DIR$/Lab06_images/smooth.fs" />
-        <option value="$PROJECT_DIR$/Lab07_NormalMap/Texture.py" />
         <option value="$PROJECT_DIR$/Lab06_images/vertex.vs" />
         <option value="$PROJECT_DIR$/Lab07_NormalMap/Light.py" />
         <option value="$PROJECT_DIR$/Lab07_NormalMap/vertexSimple" />
@@ -230,15 +219,31 @@
         <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/Surface.py" />
         <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/Texture.py" />
         <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate2.cp" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py" />
         <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps" />
+        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py" />
+        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/Shader.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.vs" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.fs" />
+        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs" />
+        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs2" />
+        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.vs" />
+        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs3" />
+        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/main.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.gs" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/textureMapping.fs" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/main.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/Texture.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.fs2" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/simulate.cps" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/ParticleSystem.py" />
+        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.gs2" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="648" />
-    <option name="y" value="30" />
+    <option name="x" value="1612" />
+    <option name="y" value="99" />
     <option name="width" value="1918" />
     <option name="height" value="1040" />
   </component>
@@ -248,6 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +274,16 @@
             <path>
               <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab11_0_GeometryShader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab11_GeometryShader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
               <item name="LabB01_CudaStart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,20 +295,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../massspring lecturenotes" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_GeometryShader" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_0_GeometryShader" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_GeometryShader" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab10_ParticleSystemClass" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab10_Particles" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab08_TangentSpace" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab07_NormalMap" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab5_parameters" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="helloCuda" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -329,7 +348,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -337,11 +356,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab07_NormalMap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab11_GeometryShader" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab07_NormalMap/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab11_GeometryShader/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,6 +403,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab10_Particles/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Lab11_0_GeometryShader" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab11_0_GeometryShader/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -444,17 +484,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.helloCuda" />
       <item itemvalue="Python.main (4)" />
+      <item itemvalue="Python.main (2)" />
+      <item itemvalue="Python.main (5)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
+        <item itemvalue="Python.main (5)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.helloCuda" />
         <item itemvalue="Python.main (3)" />
-        <item itemvalue="Python.main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -472,14 +514,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="648" y="30" width="1918" height="1040" extended-state="0" />
+    <frame x="1612" y="99" width="1918" height="1040" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17976318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18299246" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50551873" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50441504" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,166 +542,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab06_images/vertex.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="39" selection-start-line="1" selection-start-column="59" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab06_images/fragment.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/perPixel.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab4_ABetterShader/perPixel.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="39" selection-start-line="10" selection-start-column="3" selection-end-line="23" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/vertexSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/fragmentSimple">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Texture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="33" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Light.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="21" column="43" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/Shader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab06_images/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1978">
-          <caret line="93" column="32" selection-start-line="92" selection-start-column="12" selection-end-line="93" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab5_parameters/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1022">
-          <caret line="116" column="13" selection-start-line="116" selection-start-column="13" selection-end-line="116" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Light.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Surface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2392">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/Texture.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../pyCudaDownload/pycuda-2018.1.1/README_SETUP.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="1" lean-forward="true" selection-end-line="23" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/textureMapping.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3289">
-          <caret line="156" column="16" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab08_TangentSpace/tangent.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab09_NormalMapOnTangentSpace/textureMapping.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB01_CudaStart/helloCuda.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab10_Particles/Light.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -719,9 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
           <caret line="52" column="26" selection-end-line="66" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,26 +615,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/compute.cps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/compute.cps" />
     <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/Surface.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="818">
           <caret line="123" column="29" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,9 +630,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/Surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ctypes/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3572">
+          <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -775,37 +653,24 @@
     <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/textureMapping.fs">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_Particles/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_Particles/Surface.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/ctypes/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="188" column="6" selection-start-line="188" selection-start-column="6" selection-end-line="188" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate2.cp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="53" column="55" lean-forward="true" selection-end-line="66" selection-end-column="1" />
+        <state relative-caret-position="1007">
+          <caret line="53" column="55" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_Particles/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="112" column="41" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
         </state>
       </provider>
     </entry>
@@ -813,37 +678,191 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="94" column="57" selection-start-line="94" selection-start-column="57" selection-end-line="94" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="120" column="21" selection-start-line="120" selection-start-column="21" selection-end-line="120" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/Light.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/Surface.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1976">
+          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="108" selection-end-column="31" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py">
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs3">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="77" column="68" lean-forward="true" selection-start-line="77" selection-start-column="68" selection-end-line="77" selection-end-column="68" />
+        <state relative-caret-position="760">
+          <caret line="40" column="82" selection-start-line="40" selection-start-column="82" selection-end-line="40" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/particle.vs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/particle.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/Shader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1540368879922" expanded="true" signature="218:405" ph="..." />
+            <marker date="1540368879922" expanded="true" signature="423:428" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/textureMapping.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/textureMapping.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.fs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/Texture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.vs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="144" column="24" lean-forward="true" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps">
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/Shader.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="361">
+          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py">
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/sprite.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.fs2">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+        <state relative-caret-position="152">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/simulate2.cp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/simulate.cps">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="33" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/ParticleSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
-            <marker date="1540283325314" expanded="true" signature="888:1292" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/smoke.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
