@@ -26,6 +26,6 @@ void main (void)
     Ispec = clamp(Ispec, 0.0, 1.0);
 
     // write Total Color:
-    gl_FragColor = vec4( (Idiff+Ispec)*vec3(1.0, 0.9, 0.5), 1.0);
+    gl_FragColor = vec4( (0.25*Idiff+0.5*Ispec)*vec3(1.0, 0.9, 0.5), 1.0);
 
 }

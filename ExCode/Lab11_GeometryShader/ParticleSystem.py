@@ -48,6 +48,8 @@ class ParticleSystem :
 
         loc = glGetUniformLocation(self.cps.program, "nParticles")
         glUniform1i(loc, self.nParticles)
+        loc = glGetUniformLocation(self.cps.program, "wind")
+        glUniform3f(loc, 1,0,0)
         glDispatchCompute( int(self.nParticles), 1,1)  # arraySize / local_size_x
         glMemoryBarrier(GL_SHADER_STORAGE_BARRIER_BIT)
 
@@ -71,7 +73,7 @@ class ParticleSystem :
         loc = glGetUniformLocation(self.particleShader.program, "sprite")
         glUniform1i(loc, 0)
         glEnable(GL_BLEND)
-        glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
+        glBlendFunc(GL_SRC_ALPHA, GL_DST_ALPHA)
         glDepthMask(GL_FALSE)
 
         glColor3f(0,1,0)
@@ -85,6 +87,7 @@ class ParticleSystem :
         self.locIn = self.locOut
 
         glDepthMask(GL_TRUE)
+        glDisable(GL_BLEND)
         self.particleShader.end()
 
         self.sprite.stopTexture()

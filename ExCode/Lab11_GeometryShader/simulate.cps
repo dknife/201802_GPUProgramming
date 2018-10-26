@@ -1,6 +1,7 @@
 #version 320 es
 
 uniform int nParticles;
+uniform vec3 wind;
 
 layout(local_size_x = 10, local_size_y=1, local_size_z=1) in;
 
@@ -23,7 +24,8 @@ layout(binding = 3)  buffer VelOut {
 };
 
 float dt = 0.01;
-vec3 gravity = vec3(0.0, -9.8, 0.0);
+
+vec3 gravity = vec3(0.0, -9.8, 0.0) ;
 float e = 0.3;
 
 float random (vec2 st) {
@@ -32,6 +34,8 @@ float random (vec2 st) {
 
 void main()
 {
+
+    gravity = gravity + wind;
     uint index = gl_GlobalInvocationID.x;
     if (index > uint(nParticles) ) return;
 
@@ -67,7 +71,8 @@ void main()
     }
     else if (locOut[vIdx].y<-1.0 || d > 1.0) {
         locOut[vIdx] = vec3(0.0, 0.35, 0.0);
-        velOut[vIdx] = vec3(velOut[vIdx].z * 0.5, random(velOut[vIdx].xy)-0.5, velOut[vIdx].x*0.5);
+        //velOut[vIdx] = vec3(velOut[vIdx].z * 0.0, random(velOut[vIdx].xy)-0.5, velOut[vIdx].x*0.0);
+        velOut[vIdx] = vec3(random(velOut[vIdx].yz)-0.5, random(velOut[vIdx].xy)-0.5, random(velOut[vIdx].xz)-0.5);
     }
 
 }

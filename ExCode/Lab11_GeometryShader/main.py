@@ -19,7 +19,7 @@ import ParticleSystem
 class MyFrame(wx.Frame) :
     def __init__(self):
         self.size = (1280, 720)
-        wx.Frame.__init__(self, None, title = "wx frame", size = self.size,
+        wx.Frame.__init__(self, None, title = "Compute-Vertex-Geometry-Fragment Full Demonstration - Young-Min Kang", size = self.size,
                           style = wx.DEFAULT_FRAME_STYLE ^ wx.RESIZE_BORDER)
         self.panel = MyPanel(self)
 
@@ -130,6 +130,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         gluPerspective(60, self.aspect_ratio, 0.1, 100.0)
         glViewport(0,0,self.size[0], self.size[1])
         glEnable(GL_DEPTH_TEST)
+        glClearColor(0.0, 0.0, 0.5, 0.0)
 
 
 
