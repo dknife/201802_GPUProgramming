@@ -1,0 +1,12 @@
+uniform sampler2D sprite;
+
+in vec2 Vertex_UV;
+in vec3 Vertex_Normal;
+
+void main (void)
+{
+
+    vec3 L = normalize(gl_LightSource[0].position.xyz);
+    vec4 color = texture2D(sprite, Vertex_UV.xy);
+    gl_FragColor = color* vec4(0.2,0.2,1.0, color.r*color.g);
+}
