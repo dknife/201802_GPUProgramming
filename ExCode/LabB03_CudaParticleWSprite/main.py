@@ -71,7 +71,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.Bind(wx.EVT_PAINT, self.OnDraw)
         self.Bind(wx.EVT_IDLE, self.OnIdle)
 
-        self.particles = ParticleSystem.ParticleSystem(1000000)
+        self.particles = ParticleSystem.ParticleSystem(500000)
 
         self.InitGL()
 
@@ -83,6 +83,9 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         gluPerspective(60, self.aspect_ratio, 0.1, 100.0)
         glViewport(0,0,self.size[0], self.size[1])
         glEnable(GL_DEPTH_TEST)
+        glEnable(GL_LIGHTING)
+        glEnable(GL_LIGHT0)
+        glEnable(GL_COLOR_MATERIAL)
 
 
     def OnDraw(self, event):
@@ -96,14 +99,16 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
         gluLookAt(0,self.zoom*0.3,self.zoom, 0, 0, 0, 0,1,0)
-        glPointSize(10)
-        glColor3f(1, 0, 0)
-        glBegin(GL_POINTS)
-        glEnd()
+
 
         glRotatef(self.objectAngle, 0,1,0)
 
+        self.particles.sendDataToDevice()
+        for i in range(5) :
+            self.particles.update()
+        self.particles.getDataFromDevice()
         self.particles.show()
+
 
         self.SwapBuffers()
 
