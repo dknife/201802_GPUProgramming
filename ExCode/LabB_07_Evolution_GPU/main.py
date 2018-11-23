@@ -42,7 +42,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.Bind(wx.EVT_IDLE, self.OnIdle)
 
         nObstacles = 20
-        nGenes = 100
+        nGenes = 1000
 
         self.gaEngine = GAEngine.GAEngine(nObstacles, nGenes)
 
