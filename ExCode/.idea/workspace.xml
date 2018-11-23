@@ -43,7 +43,7 @@
           <entry key="gs" value="254" />
           <entry key="gs2" value="363" />
           <entry key="gs3" value="90" />
-          <entry key="py" value="14829" />
+          <entry key="py" value="15300" />
           <entry key="txt" value="11" />
           <entry key="vs" value="37" />
         </counts>
@@ -51,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3166" />
-          <entry key="Python" value="14829" />
+          <entry key="Python" value="15300" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -66,7 +66,7 @@
           <entry key="ipynb" value="1" />
           <entry key="jpg" value="4" />
           <entry key="png" value="3" />
-          <entry key="py" value="76" />
+          <entry key="py" value="77" />
           <entry key="txt" value="2" />
           <entry key="vs" value="12" />
         </counts>
@@ -76,7 +76,7 @@
           <entry key="IPNB" value="1" />
           <entry key="Image" value="7" />
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="Python" value="76" />
+          <entry key="Python" value="77" />
         </counts>
       </usages-collector>
     </session>
@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="492">
-              <caret line="123" column="27" lean-forward="true" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
+              <caret line="123" column="27" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <marker date="1542330615525" expanded="true" signature="3989:4144" ph="..." />
@@ -100,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="182" selection-start-line="182" selection-end-line="182" />
+            <state relative-caret-position="416">
+              <caret line="188" column="34" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LabB_08_Evolution_GPU2/GAEngine.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1862">
-              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
+            <state relative-caret-position="-496">
+              <caret line="127" column="24" lean-forward="true" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -149,7 +149,7 @@
         <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="456">
-              <caret line="24" lean-forward="true" selection-end-line="93" selection-end-column="10" />
+              <caret line="24" selection-end-line="93" selection-end-column="10" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -157,7 +157,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
@@ -173,7 +173,7 @@
         <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="361">
-              <caret line="19" column="22" lean-forward="true" selection-end-line="106" selection-end-column="19" />
+              <caret line="19" column="22" selection-end-line="106" selection-end-column="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
                 <marker date="1542862539907" expanded="true" signature="2118:2127" ph="..." />
@@ -250,7 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs2" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.vs" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs3" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/main.py" />
@@ -299,8 +298,9 @@
         <option value="$PROJECT_DIR$/00_Rotation/MatrixShow.py" />
         <option value="$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py" />
         <option value="$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py" />
-        <option value="$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py" />
         <option value="$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py" />
+        <option value="$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py" />
+        <option value="$PROJECT_DIR$/LabB_08_Evolution_GPU2/GAEngine.py" />
       </list>
     </option>
   </component>
@@ -344,6 +344,11 @@
               <item name="ExCode" type="462c0819:PsiDirectoryNode" />
               <item name="LabB_07_Evolution_GPU" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
+              <item name="LabB_08_Evolution_GPU2" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -356,16 +361,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_GeometryShader" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB_08_Evolution_GPU2" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB_07_Evolution_GPU" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB00_CudaBasic" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB04_NBody" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB02_GridBlockSize" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_GeometryShader" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -380,7 +385,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="VisMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -423,7 +428,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,11 +436,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB00_CudaBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB_08_Evolution_GPU2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB00_CudaBasic/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB_08_Evolution_GPU2/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,19 +543,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (3)" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.VisMain" />
       <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main (1)" />
+      <item itemvalue="Python.main (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (4)" />
         <item itemvalue="Python.VisMain" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -597,13 +602,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/waterfall/particle.fs2">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/nBody.cps">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
@@ -842,7 +840,7 @@
     <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="19" column="22" lean-forward="true" selection-end-line="106" selection-end-column="19" />
+          <caret line="19" column="22" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <marker date="1542862539907" expanded="true" signature="2118:2127" ph="..." />
@@ -853,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
-          <caret line="24" lean-forward="true" selection-end-line="93" selection-end-column="10" />
+          <caret line="24" selection-end-line="93" selection-end-column="10" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
@@ -863,21 +861,11 @@
     <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="492">
-          <caret line="123" column="27" lean-forward="true" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
+          <caret line="123" column="27" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
             <marker date="1542330615525" expanded="true" signature="3989:4144" ph="..." />
             <marker date="1542330615525" expanded="true" signature="4172:4276" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="182" selection-start-line="182" selection-end-line="182" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -889,6 +877,23 @@
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="188" column="34" selection-start-line="188" selection-start-column="34" selection-end-line="188" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB_08_Evolution_GPU2/GAEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-496">
+          <caret line="127" column="24" lean-forward="true" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
         </state>
       </provider>
     </entry>

@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/00_Rotation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LabB_06_Evolution_CPU" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LabB_07_Evolution_GPU" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LabB_08_Evolution_GPU2" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (venv)" jdkType="Python SDK" />
