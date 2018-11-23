@@ -16,9 +16,6 @@ class ParticleSystem :
 
         self.nParticles = nParticles;
 
-        self.particleShader = Shader.Shader("particle.vs", "particle.fs", gsFileName="particle.gs")
-        self.sprite = Texture.Texture("sprite.png", option=GL_RGB)
-
         self.colors = np.zeros(shape=(self.nParticles*3,), dtype=np.float32)  # single precision
         self.loc = np.zeros(shape=(self.nParticles*3,), dtype=np.float32)
         self.vel = np.zeros(shape=(self.nParticles*3,), dtype=np.float32)
@@ -114,16 +111,7 @@ class ParticleSystem :
 
     def show(self):
 
-        self.sprite.startTexture()
-
-        #self.particleShader.begin()
-        #loc = glGetUniformLocation(self.particleShader.program, "sprite")
-        #glUniform1i(loc, 0)
-        #glEnable(GL_BLEND)
-        #glBlendFunc(GL_SRC_ALPHA, GL_DST_ALPHA)
         glDepthMask(GL_FALSE)
-        #glDisable(GL_LIGHTING)
-        #glDisable(GL_TEXTURE_2D)
 
         glPointSize(1)
         glEnableClientState(GL_VERTEX_ARRAY)
@@ -132,10 +120,5 @@ class ParticleSystem :
         glColorPointer(3, GL_FLOAT, 0, self.colors)
         glDrawArrays(GL_POINTS, 0, self.nParticles)
 
-        #glEnable(GL_LIGHTING)
-        #glEnable(GL_TEXTURE_2D)
         glDepthMask(GL_TRUE)
         glDisable(GL_BLEND)
-        self.particleShader.end()
-
-        self.sprite.stopTexture()

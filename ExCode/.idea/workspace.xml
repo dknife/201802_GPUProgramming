@@ -12,7 +12,7 @@
     <session id="-2147080790">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="2" />
@@ -28,9 +28,11 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.75" value="1" />
           <entry key="project.open.time.76" value="1" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -41,7 +43,7 @@
           <entry key="gs" value="254" />
           <entry key="gs2" value="363" />
           <entry key="gs3" value="90" />
-          <entry key="py" value="11253" />
+          <entry key="py" value="14829" />
           <entry key="txt" value="11" />
           <entry key="vs" value="37" />
         </counts>
@@ -49,7 +51,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3166" />
-          <entry key="Python" value="11253" />
+          <entry key="Python" value="14829" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,18 +63,20 @@
           <entry key="gs" value="7" />
           <entry key="gs2" value="5" />
           <entry key="gs3" value="1" />
+          <entry key="ipynb" value="1" />
           <entry key="jpg" value="4" />
           <entry key="png" value="3" />
-          <entry key="py" value="58" />
+          <entry key="py" value="76" />
           <entry key="txt" value="2" />
           <entry key="vs" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="1" />
           <entry key="Image" value="7" />
           <entry key="PLAIN_TEXT" value="56" />
-          <entry key="Python" value="58" />
+          <entry key="Python" value="76" />
         </counts>
       </usages-collector>
     </session>
@@ -82,12 +86,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+            <state relative-caret-position="492">
+              <caret line="123" column="27" lean-forward="true" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
-                <marker date="1542184430367" expanded="true" signature="4157:4312" ph="..." />
-                <marker date="1542184430367" expanded="true" signature="4340:4444" ph="..." />
+                <marker date="1542330615525" expanded="true" signature="3989:4144" ph="..." />
+                <marker date="1542330615525" expanded="true" signature="4172:4276" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="182" selection-start-line="182" selection-end-line="182" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,87 +112,90 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+            <state relative-caret-position="1862">
+              <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB04_NBody/main.py">
+        <entry file="file://$PROJECT_DIR$/00_Rotation/VisMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            <state relative-caret-position="2052">
+              <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1542781362245" expanded="true" signature="2284:2364" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/00_Rotation/MatrixShow.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+                <marker date="1542781805847" expanded="true" signature="160:165" ph="..." />
+                <marker date="1542781805847" expanded="true" signature="361:571" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-end-line="93" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LabB04_NBody/ParticleSystem.py">
+        <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+            <state relative-caret-position="228">
+              <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="22" lean-forward="true" selection-end-line="106" selection-end-column="19" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+                <marker date="1542862539907" expanded="true" signature="2118:2127" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Texture.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-114">
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="836">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Shader.py">
+        <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.gs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.vs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lab07_NormalMap/textureMapping.vs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="266">
+              <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="72" />
             </state>
           </provider>
         </entry>
@@ -186,16 +205,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mySur</find>
-      <find>vertex</find>
-      <find>loadImage</find>
-      <find>img_data</find>
       <find>angle</find>
       <find>getU</find>
       <find>surfa</find>
@@ -216,12 +232,16 @@
       <find>Parti</find>
       <find>cps</find>
       <find>L_POSITION</find>
-      <find>Shader</find>
       <find>texture</find>
-      <find>light</find>
       <find>parti</find>
       <find>Lighting</find>
       <find>lighting</find>
+      <find>sprite</find>
+      <find>shader</find>
+      <find>Shader</find>
+      <find>Shader.Shader</find>
+      <find>light</find>
+      <find>clearColor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -230,17 +250,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/compute.cps" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/Shader.py" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/Surface.py" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/Texture.py" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate2.cp" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/ParticleSystem.py" />
-        <option value="$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py" />
-        <option value="$PROJECT_DIR$/Lab11_GeometryShader/Shader.py" />
-        <option value="$PROJECT_DIR$/Lab11_GeometryShader/particle.vs" />
-        <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs2" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.vs" />
         <option value="$PROJECT_DIR$/Lab11_0_GeometryShader/particle.gs3" />
@@ -278,15 +287,26 @@
         <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/main.py" />
         <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.vs" />
         <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.fs" />
-        <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py" />
         <option value="$PROJECT_DIR$/LabB04_NBody/main.py" />
         <option value="$PROJECT_DIR$/LabB04_NBody/ParticleSystem.py" />
+        <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/Shader.py" />
+        <option value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py" />
+        <option value="$PROJECT_DIR$/LabB00_CudaBasic/main.py" />
+        <option value="$PROJECT_DIR$/LabB00_CudaBasic/ParticleSystem.py" />
+        <option value="$PROJECT_DIR$/complexNumbers/test.py" />
+        <option value="$PROJECT_DIR$/00_Rotation/MatrixShow.ipynb" />
+        <option value="$PROJECT_DIR$/00_Rotation/VisMain.py" />
+        <option value="$PROJECT_DIR$/00_Rotation/MatrixShow.py" />
+        <option value="$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py" />
+        <option value="$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py" />
+        <option value="$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py" />
+        <option value="$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="96" />
+    <option name="x" value="1964" />
+    <option name="y" value="56" />
     <option name="width" value="1598" />
     <option name="height" value="984" />
   </component>
@@ -307,22 +327,7 @@
             <path>
               <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab07_NormalMap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab10_ParticleSystemClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Lab11_GeometryShader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LabB02_GridBlockSize" type="462c0819:PsiDirectoryNode" />
+              <item name="00_Rotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
@@ -332,17 +337,12 @@
             <path>
               <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="LabB04_NBody" type="462c0819:PsiDirectoryNode" />
+              <item name="LabB_06_Evolution_CPU" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="Terrain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ExCode" type="462c0819:PsiDirectoryNode" />
-              <item name="TEST_GL_CAM" type="462c0819:PsiDirectoryNode" />
+              <item name="LabB_07_Evolution_GPU" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -353,19 +353,19 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../massspring lecturenotes" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB04_NBody" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB02_GridBlockSize" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB02_CudaParticles" />
-      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\waterfall" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
       <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\Lab11_GeometryShader" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB_07_Evolution_GPU" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB00_CudaBasic" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB04_NBody" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB03_CudaParticleWSprite" />
+      <recent name="D:\YMKang_Work\lectureAndStudy\2018\201802_GPUProgramming\ExCode\LabB02_GridBlockSize" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,7 +381,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.main (1)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="VisMain" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -389,11 +389,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB02_GridBlockSize" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/00_Rotation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB02_GridBlockSize/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/00_Rotation/VisMain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,7 +402,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ExCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -410,11 +410,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB03_CudaParticleWSprite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB_07_Evolution_GPU" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB03_CudaParticleWSprite/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB00_CudaBasic" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB00_CudaBasic/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -431,53 +452,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB02_CudaParticles" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB_06_Evolution_CPU" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB02_CudaParticles/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (5)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ExCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TEST_GL_CAM" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TEST_GL_CAM/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main (6)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ExCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LabB04_NBody" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB04_NBody/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -499,6 +478,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab10_ParticleSystemClass/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ExCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/complexNumbers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/complexNumbers/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -538,9 +538,9 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.main (2)" />
-      <item itemvalue="Python.main (5)" />
-      <item itemvalue="Python.main (6)" />
+      <item itemvalue="Python.main (3)" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.VisMain" />
       <item itemvalue="Python.main (4)" />
       <item itemvalue="Python.main (1)" />
     </list>
@@ -548,9 +548,9 @@
       <list>
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main (4)" />
-        <item itemvalue="Python.main (2)" />
-        <item itemvalue="Python.main (6)" />
-        <item itemvalue="Python.main (5)" />
+        <item itemvalue="Python.VisMain" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -571,12 +571,12 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19829424" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3054371" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43555093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3180873" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -597,72 +597,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.vs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/textureMapping.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab10_ParticleSystemClass/simulate.cps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="62" column="13" lean-forward="true" selection-end-line="70" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/simulate.cps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/smoke.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2204">
-          <caret line="132" column="34" selection-start-line="132" selection-start-column="34" selection-end-line="132" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/ParticleSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1311">
-          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/particle.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/waterfall/textureMapping.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/waterfall/particle.fs2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -674,13 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
@@ -702,9 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1349">
           <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="23" selection-start-line="23" selection-end-line="24" selection-end-column="26" />
-          <folding>
-            <element signature="e#75#103#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,20 +654,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="e#75#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_CudaParticles/ParticleSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="53" column="41" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1542151680682" expanded="true" signature="2602:2610" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -764,9 +668,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1178">
           <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -780,26 +681,8 @@
     <entry file="file://$PROJECT_DIR$/waterfall/sprite.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="120" column="18" selection-start-line="120" selection-start-column="13" selection-end-line="120" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="28" column="70" lean-forward="true" selection-start-line="28" selection-start-column="70" selection-end-line="28" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/Shader.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.vs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/Shader.py" />
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.vs" />
     <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.gs2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -807,13 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.gs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.gs" />
     <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/particle.fs2">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -821,26 +698,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/Texture.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/ParticleSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1634">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/particle.fs" />
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/Texture.py" />
     <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/ParticleSystem.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -848,16 +707,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/LDQt9.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/LDQt9.png" />
     <entry file="file://$PROJECT_DIR$/TEST_GL_CAM/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
           <caret line="72" column="25" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -865,37 +719,61 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
           <caret line="99" column="30" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/smoke.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Texture.py">
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/smoke.jpg" />
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Texture.py" />
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.gs" />
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.vs" />
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.fs" />
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Shader.py" />
+    <entry file="file://$PROJECT_DIR$/LabB04_NBody/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1178">
+          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/Shader.py">
+    <entry file="file://$PROJECT_DIR$/LabB02_CudaParticles/ParticleSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="950">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="8" selection-end-line="68" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.gs">
+    <entry file="file://$PROJECT_DIR$/LabB04_NBody/ParticleSystem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="1520">
+          <caret line="90" column="34" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/ParticleSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="43" column="38" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB00_CudaBasic/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="73" column="60" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB00_CudaBasic/ParticleSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="55" selection-end-line="81" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB02_GridBlockSize/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="22" column="39" selection-end-line="121" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -906,52 +784,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.vs">
+    <entry file="file://$PROJECT_DIR$/00_Rotation/MatrixShow.ipynb" />
+    <entry file="file://$PROJECT_DIR$/complexNumbers/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/particle.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="104" column="48" selection-start-line="104" selection-start-column="48" selection-end-line="104" selection-end-column="48" />
+        <state relative-caret-position="703">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-            <marker date="1542184430367" expanded="true" signature="4157:4312" ph="..." />
-            <marker date="1542184430367" expanded="true" signature="4340:4444" ph="..." />
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        <state relative-caret-position="1862">
+          <caret line="109" column="29" selection-start-line="109" selection-start-column="29" selection-end-line="109" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB04_NBody/main.py">
+    <entry file="file://$PROJECT_DIR$/00_Rotation/VisMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2052">
+          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1542781362245" expanded="true" signature="2284:2364" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/00_Rotation/MatrixShow.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+            <marker date="1542781805847" expanded="true" signature="160:165" ph="..." />
+            <marker date="1542781805847" expanded="true" signature="361:571" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_0_GeometryShader/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab11_GeometryShader/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
-          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+          <caret line="30" selection-start-line="30" selection-end-line="34" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LabB04_NBody/ParticleSystem.py">
+    <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/GAEngine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+        <state relative-caret-position="361">
+          <caret line="19" column="22" lean-forward="true" selection-end-line="106" selection-end-column="19" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+            <marker date="1542862539907" expanded="true" signature="2118:2127" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB_06_Evolution_CPU/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-end-line="93" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB03_CudaParticleWSprite/ParticleSystem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="492">
+          <caret line="123" column="27" lean-forward="true" selection-start-line="113" selection-start-column="8" selection-end-line="123" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <marker date="1542330615525" expanded="true" signature="3989:4144" ph="..." />
+            <marker date="1542330615525" expanded="true" signature="4172:4276" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/GAEngine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="182" selection-start-line="182" selection-end-line="182" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabB_07_Evolution_GPU/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
