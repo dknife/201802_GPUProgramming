@@ -1,7 +1,7 @@
 import wx # requires wxPython package
 from wx import glcanvas
 from OpenGL.GL import *
-from OpenGL.GLU import *
+
 
 import GAEngine
 
@@ -41,8 +41,8 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.Bind(wx.EVT_PAINT, self.OnDraw)
         self.Bind(wx.EVT_IDLE, self.OnIdle)
 
-        nObstacles = 50
-        nGenes = 300000
+        nObstacles = 30
+        nGenes = 3000
 
         self.gaEngine = GAEngine.GAEngine(nObstacles, nGenes)
 
@@ -55,6 +55,7 @@ class OpenGLCanvas(glcanvas.GLCanvas):
         self.aspect_ratio = float(self.size[0]) / self.size[1]
         glOrtho(-1,1,-1,1,-1,1)
         glViewport(0,0,self.size[0], self.size[1])
+        glPolygonMode(GL_FRONT_AND_BACK, GL_LINE)
 
 
     def OnDraw(self, event):
